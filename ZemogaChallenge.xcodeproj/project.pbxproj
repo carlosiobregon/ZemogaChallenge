@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		04376F1B28F348530026C807 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04376F1A28F348530026C807 /* MainCoordinator.swift */; };
 		04376F1D28F3489D0026C807 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04376F1C28F3489D0026C807 /* Coordinator.swift */; };
+		04376F1F28F354D90026C807 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04376F1E28F354D90026C807 /* ViewCodeConfiguration.swift */; };
+		04376F2128F3551C0026C807 /* LoadingActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04376F2028F3551C0026C807 /* LoadingActivityView.swift */; };
 		04CC320228F23535009467F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC320128F23535009467F0 /* AppDelegate.swift */; };
 		04CC320428F23535009467F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC320328F23535009467F0 /* SceneDelegate.swift */; };
 		04CC320628F23535009467F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC320528F23535009467F0 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		04376F1A28F348530026C807 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		04376F1C28F3489D0026C807 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		04376F1E28F354D90026C807 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		04376F2028F3551C0026C807 /* LoadingActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingActivityView.swift; sourceTree = "<group>"; };
 		04CC31FE28F23535009467F0 /* ZemogaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZemogaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CC320128F23535009467F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CC320328F23535009467F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				04CC320328F23535009467F0 /* SceneDelegate.swift */,
 				04376F1C28F3489D0026C807 /* Coordinator.swift */,
 				04376F1A28F348530026C807 /* MainCoordinator.swift */,
+				04376F1E28F354D90026C807 /* ViewCodeConfiguration.swift */,
+				04376F2028F3551C0026C807 /* LoadingActivityView.swift */,
 				04CC320528F23535009467F0 /* ViewController.swift */,
 				04CC320728F23535009467F0 /* Main.storyboard */,
 				04CC320A28F23536009467F0 /* Assets.xcassets */,
@@ -264,10 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04376F1F28F354D90026C807 /* ViewCodeConfiguration.swift in Sources */,
 				04CC320628F23535009467F0 /* ViewController.swift in Sources */,
 				04376F1B28F348530026C807 /* MainCoordinator.swift in Sources */,
 				04376F1D28F3489D0026C807 /* Coordinator.swift in Sources */,
 				04CC320228F23535009467F0 /* AppDelegate.swift in Sources */,
+				04376F2128F3551C0026C807 /* LoadingActivityView.swift in Sources */,
 				04CC320428F23535009467F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
