@@ -9,15 +9,15 @@ import UIKit
 
 class LoadingActivityView: UIView {
     
-    //Mark: - Atributes
+    //MARK: - Atributes
     private lazy var activity: UIActivityIndicatorView = {
-        let view = UIActivityIndicatorView()
-        view.style = .large
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
+        let activityIndicator = UIActivityIndicatorView()
+        activityIndicator.style = .large
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        return activityIndicator
     }()
     
-    //Mark: - Lifecycle
+    //MARK: - Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
         applyViewCode()
@@ -30,7 +30,7 @@ class LoadingActivityView: UIView {
     
 }
 
-//Mark: - ViewCodeConfiguration
+//MARK: - ViewCodeConfiguration
 extension LoadingActivityView: ViewCodeConfiguration {
     func buildHierarchy() {
         addSubview(activity)
@@ -39,8 +39,8 @@ extension LoadingActivityView: ViewCodeConfiguration {
     func setupConstraints() {
         
         NSLayoutConstraint.activate([
-            activity.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            activity.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+            activity.centerXAnchor.constraint(equalTo: centerXAnchor),
+            activity.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
         
     }
